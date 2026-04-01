@@ -8,30 +8,35 @@ import { CartPage } from "../features/cart";
 import { MenuPage } from "../features/menu";
 import { HomePage } from "../features/home";
 
-const AppRouter = createBrowserRouter([
+const AppRouter = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      errorElement: <NotFoundPage />,
+      children: [
+        {
+          index: true,
+          element: <HomePage />,
+        },
+        {
+          path: "about-us",
+          element: <AboutUsPage />,
+        },
+        {
+          path: "menu",
+          element: <MenuPage />,
+        },
+        {
+          path: "cart",
+          element: <CartPage />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    errorElement: <NotFoundPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: "about-us",
-        element: <AboutUsPage />,
-      },
-      {
-        path: "menu",
-        element: <MenuPage />,
-      },
-      {
-        path: "cart",
-        element: <CartPage />,
-      },
-    ],
+    basename: "/chest-bread",
   },
-]);
+);
 
 export default AppRouter;

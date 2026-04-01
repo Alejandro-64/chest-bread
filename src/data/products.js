@@ -1,5 +1,3 @@
-
-
 export const categories = [
   { id: 1, name: "Burgers", slug: "burgers" },
   { id: 2, name: "Hot Dogs", slug: "hot-dogs" },
@@ -17,7 +15,7 @@ export const products = [
       "Juicy beef patty, lettuce, tomato, onion and our secret sauce.",
     price: 12.9,
     image:
-      "/images/product-1.webp",
+      "./images/product-1.webp",
     category: "burgers",
     available: true,
     featured: true,
@@ -29,7 +27,7 @@ export const products = [
     description: "Double smashed patty, double cheddar cheese and pickles.",
     price: 16.9,
     image:
-      "/images/product-2.webp",
+      "./images/product-2.webp",
     category: "burgers",
     available: true,
     featured: false,
@@ -41,7 +39,7 @@ export const products = [
     description: "Beef patty, crispy bacon, BBQ sauce and onion rings.",
     price: 17.5,
     image:
-      "/images/product-3.webp",
+      "./images/product-3.webp",
     category: "burgers",
     available: true,
     featured: false,
@@ -53,7 +51,7 @@ export const products = [
     description: "Beef patty, jalapeños, hot sauce and pepper jack cheese.",
     price: 15.9,
     image:
-      "/images/product-4.webp",
+      "./images/product-4.webp",
     category: "burgers",
     available: false,
     featured: false,
@@ -67,7 +65,7 @@ export const products = [
     description: "Smoked sausage, mustard, ketchup and onion.",
     price: 8.9,
     image:
-      "/images/product-5.webp",
+      "./images/product-5.webp",
     category: "hot-dogs",
     available: true,
     featured: true,
@@ -79,7 +77,7 @@ export const products = [
     description: "Sausage, pickles, tomato, yellow mustard and celery salt.",
     price: 10.9,
     image:
-      "/images/product-6.webp",
+      "./images/product-6.webp",
     category: "hot-dogs",
     available: true,
     featured: false,
@@ -91,7 +89,7 @@ export const products = [
     description: "Bacon-wrapped sausage with melted cheddar cheese.",
     price: 11.9,
     image:
-      "/images/product-7.webp",
+      "./images/product-7.webp",
     category: "hot-dogs",
     available: true,
     featured: false,
@@ -105,7 +103,7 @@ export const products = [
     description: "Classic cold soda, 500ml.",
     price: 3.9,
     image:
-      "/images/product-8.webp",
+      "./images/product-8.webp",
     category: "drinks",
     available: true,
     featured: false,
@@ -117,7 +115,7 @@ export const products = [
     description: "Fresh lemonade with mint and ice.",
     price: 4.5,
     image:
-      "/images/product-9.webp",
+      "./images/product-9.webp",
     category: "drinks",
     available: true,
     featured: false,
@@ -129,7 +127,7 @@ export const products = [
     description: "Creamy milkshake in vanilla, chocolate or strawberry.",
     price: 6.9,
     image:
-      "/images/product-10.webp",
+      "./images/product-10.webp",
     category: "drinks",
     available: true,
     featured: true,
@@ -143,7 +141,7 @@ export const products = [
     description: "Crispy golden fries with sea salt.",
     price: 4.9,
     image:
-      "/images/product-11.webp",
+      "./images/product-11.webp",
     category: "fries",
     available: true,
     featured: false,
@@ -155,7 +153,7 @@ export const products = [
     description: "Fries topped with cheddar cheese, bacon and chives.",
     price: 7.9,
     image:
-      "/images/product-12.webp",
+      "./images/product-12.webp",
     category: "fries",
     available: true,
     featured: true,

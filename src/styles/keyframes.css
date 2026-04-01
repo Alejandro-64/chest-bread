@@ -1,0 +1,12 @@
+@keyframes slideProduct {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.slideProduct {
+  animation: slideProduct 10s linear infinite;
+}

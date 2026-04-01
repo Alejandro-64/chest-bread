@@ -1,0 +1,15 @@
+@theme {
+  --color-bg: #fdfbee;
+  --color-bg-2: #c51918;
+  --color-bg-3: #000000;
+
+  --color-text: #000000;
+  --color-text-2: #c51918;
+  --color-text-3: #fdfbee;
+  --color-text-4: #bebeb3;
+
+  --color-border: #c51918;
+  --color-border-2: #bebeb3;
+
+  --font-primary: "Arial", sans-serif;
+}

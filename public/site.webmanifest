@@ -1,0 +1,16 @@
+{
+  "name": "Chest-Bread",
+  "short_name": "Chest-Bread",
+  "description": "Urban Fast Food with Real Flavor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#fdfbee",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

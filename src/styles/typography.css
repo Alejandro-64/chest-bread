@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Arial";
+  src: url("../assets/fonts/arial-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../assets/fonts/arial-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../assets/fonts/arial-black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
